@@ -41,7 +41,6 @@ def process_gpu_data(input_file, output_file, plot_file):
         x_col = time_col if time_col in filtered_df.columns else None
         if x_col:
             filtered_df = filtered_df.sort_values(x_col)
-
             plt.plot(
                 filtered_df[x_col], filtered_df[gpu_col],
                 marker='o', linestyle='-', color='b',
