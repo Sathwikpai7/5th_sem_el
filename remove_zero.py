@@ -70,4 +70,4 @@ def process_gpu_data(input_file, output_file, plot_file):
 
 
 if __name__ == "__main__":
-    process_gpu_data('gemma3_1b.csv', 'gemma3_1b_zero_removed.csv', 'gemma3_1b.png') 
+    process_gpu_data('phi3_8b.csv', 'phi3_8b_zero_removed.csv', 'phi3_8b.png') 
